@@ -24,8 +24,8 @@ cd deploy
 #### Up the DB
 
 ```bash
-docker-compose up -d db
-docker-compose up -d mongo-express
+docker compose up -d db
+docker compose up -d mongo-express
 ```
 
 With `mongo-express` we can see the contents of the database at [http://localhost:8081](http://localhost:8081).
@@ -35,13 +35,13 @@ With `mongo-express` we can see the contents of the database at [http://localhos
 To load the database we execute the following commands:
 
 ```bash
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/analyses*.json --collection analyses
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/biosamples*.json --collection biosamples
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/cohorts*.json --collection cohorts
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/datasets*.json --collection datasets
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/individuals*.json --collection individuals
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/runs*.json --collection runs
-mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file data/genomicVariations*.json --collection genomicVariations
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/analyses*.json --collection analyses
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/biosamples*.json --collection biosamples
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/cohorts*.json --collection cohorts
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/datasets*.json --collection datasets
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/individuals*.json --collection individuals
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/runs*.json --collection runs
+mongoimport --jsonArray --uri "mongodb://root:example@127.0.0.1:27017/beacon?authSource=admin" --file test-data/genomicVariations*.json --collection genomicVariations
 ```
 
 This loads the JSON files inside of the `data` folder into the MongoDB database.
@@ -78,7 +78,7 @@ python3 fetch_ontologies.py
 
 ```bash
 # Install the dependencies
-pip3 install pymongo tqdm owlready2 progressbar
+pip3 install pymongo tqdm owlready2 progressbar requests
 
 python3 extract_filtering_terms.py
 ```
@@ -109,7 +109,7 @@ You can query the beacon using GET or POST. Below, you can find some examples of
 
 ### Using GET
 
-Querying this endpoit it should return the 13 variants of the beacon (paginated):
+Querying this endpoint should return the 13 variants of the beacon (paginated):
 
 ```bash
 http GET http://localhost:5050/api/g_variants/

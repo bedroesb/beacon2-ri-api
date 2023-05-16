@@ -17,6 +17,8 @@ services:
     networks:
       - beacon-priv 
     tty: true
+    volumes:
+      - ./data/:/data/
 
   ###########################################
   # training-ui
@@ -73,7 +75,7 @@ services:
       # - ../beacon:/beacon/beacon  # inject the code, so we see the modifications "live"
       # - ../ui/static:/beacon/ui/static
       # - ../ui/templates:/beacon/ui/templates
-      - ./conf.py:/beacon/beacon/conf.py
+      - ../beacon/conf.py:/beacon/beacon/conf.py
       - ./logger.yml:/beacon/beacon/logger.yml
       - ./ontologies:/beacon/ontologies
     ports:
