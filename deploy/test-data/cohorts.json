@@ -1,0 +1,76 @@
+[
+   {
+      "cohortSize" : 3,
+      "cohortType" : "user-defined",
+      "collectionEvents" : [
+         {
+            "eventDiseases" : {
+               "availability" : false
+            },
+            "eventEthnicities" : {
+               "availability" : true,
+               "availabilityCount" : 3,
+               "distribution" : {
+                  "ethnicities" : {
+                     "African" : 3
+                  }
+               }
+            }
+         }
+      ],
+      "id" : "WES_NA12878",
+      "ids" : {
+         "biosampleIds" : [
+            "NA12878_WES_1",
+            "NA12878_WES_2",
+            "NA12878_WES_3"
+         ],
+         "individualIds" : [
+            "NA12878_WES_1",
+            "NA12878_WES_2",
+            "NA12878_WES_3"
+         ]
+      },
+      "name" : "WES_NA12878"
+   },
+   {
+      "cohortSize" : 3,
+      "cohortType" : "user-defined",
+      "collectionEvents" : [
+         {
+            "eventDiseases" : {
+               "availability" : true,
+               "availabilityCount" : 1,
+               "distribution" : {
+                  "diseases" : {
+                     "haemorrhoids" : 1
+                  }
+               }
+            },
+            "eventEthnicities" : {
+               "availability" : true,
+               "availabilityCount" : 3,
+               "distribution" : {
+                  "ethnicities" : {
+                     "White" : 3
+                  }
+               }
+            }
+         }
+      ],
+      "id" : "WGS_NA12878",
+      "ids" : {
+         "biosampleIds" : [
+            "NA12878_1",
+            "NA12878_2",
+            "NA12878_3"
+         ],
+         "individualIds" : [
+            "NA12878_1",
+            "NA12878_2",
+            "NA12878_3"
+         ]
+      },
+      "name" : "WGS_NA12878"
+   }
+]

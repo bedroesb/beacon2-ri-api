@@ -1,0 +1,76 @@
+[
+   {
+      "ethnicity" : {
+         "id" : "NCIT:C42331",
+         "label" : "African"
+      },
+      "id" : "NA12878_WES_1",
+      "sex" : {
+         "id" : "NCIT:C16576",
+         "label" : "female"
+      }
+   },
+   {
+      "ethnicity" : {
+         "id" : "NCIT:C42331",
+         "label" : "African"
+      },
+      "id" : "NA12878_WES_2",
+      "sex" : {
+         "id" : "NCIT:C20197",
+         "label" : "male"
+      }
+   },
+   {
+      "ethnicity" : {
+         "id" : "NCIT:C42331",
+         "label" : "African"
+      },
+      "id" : "NA12878_WES_3",
+      "sex" : {
+         "id" : "NCIT:C16576",
+         "label" : "female"
+      }
+   },
+   {
+      "ethnicity" : {
+         "id" : "NCIT:C41261",
+         "label" : "White"
+      },
+      "id" : "NA12878_1",
+      "sex" : {
+         "id" : "NCIT:C20197",
+         "label" : "male"
+      }
+   },
+   {
+      "ethnicity" : {
+         "id" : "NCIT:C41261",
+         "label" : "White"
+      },
+      "id" : "NA12878_2",
+      "sex" : {
+         "id" : "NCIT:C16576",
+         "label" : "female"
+      }
+   },
+   {
+      "diseases" : [
+         {
+            "diseaseCode" : {
+               "id" : "ICD10:K64",
+               "label" : "haemorrhoids"
+            }
+         }
+      ],
+      "ethnicity" : {
+         "id" : "NCIT:C41261",
+         "label" : "White"
+      },
+      "id" : "NA12878_3",
+      "sex" : {
+         "id" : "NCIT:C20197",
+         "label" : "male"
+      }
+   }
+]

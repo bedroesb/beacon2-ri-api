@@ -1,0 +1,16 @@
+[
+   {
+      "createDateTime" : "2023-01-17T20:33:40Z",
+      "dataUseConditions" : {
+         "duoDataUse" : [
+            {
+               "id" : "DUO:0000004",
+               "label" : "no restriction",
+               "version" : "2019-01-07"
+            }
+         ]
+      },
+      "id" : "NA12878_test_cohort_chr21",
+      "name" : "NA12878_test_cohort_chr21"
+   }
+]

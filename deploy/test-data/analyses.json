@@ -1,0 +1,68 @@
+[
+   {
+      "aligner" : "DRAGEN3.9.5",
+      "analysisDate" : "2021-01-01",
+      "biosampleId" : "NA12878_WES_1",
+      "id" : "analysis_Id1",
+      "individualId" : "NA12878_WES_1",
+      "pipelineName" : "DRAGEN_ENRICHMENT",
+      "pipelineRef" : "https://www.illumina.com/products/by-type/informatics-products/basespace-sequence-hub/apps/dragen-enrichment.html",
+      "runId" : "RNM_1",
+      "variantCaller" : "DRAGEN3.9.5"
+   },
+   {
+      "aligner" : "DRAGEN3.9.5",
+      "analysisDate" : "2021-01-01",
+      "biosampleId" : "NA12878_WES_2",
+      "id" : "analysis_Id2",
+      "individualId" : "NA12878_WES_2",
+      "pipelineName" : "DRAGEN_ENRICHMENT",
+      "pipelineRef" : "https://www.illumina.com/products/by-type/informatics-products/basespace-sequence-hub/apps/dragen-enrichment.html",
+      "runId" : "RNM_1",
+      "variantCaller" : "DRAGEN3.9.5"
+   },
+   {
+      "aligner" : "DRAGEN3.9.5",
+      "analysisDate" : "2021-01-01",
+      "biosampleId" : "NA12878_WES_3",
+      "id" : "analysis_Id3",
+      "individualId" : "NA12878_WES_3",
+      "pipelineName" : "DRAGEN_ENRICHMENT",
+      "pipelineRef" : "https://www.illumina.com/products/by-type/informatics-products/basespace-sequence-hub/apps/dragen-enrichment.html",
+      "runId" : "RNM_1",
+      "variantCaller" : "DRAGEN3.9.5"
+   },
+   {
+      "aligner" : "Isaac",
+      "analysisDate" : "2017-01-01",
+      "biosampleId" : "NA12878_1",
+      "id" : "analysis_Id4",
+      "individualId" : "NA12878_1",
+      "pipelineName" : "StrelkaGermlineWorkflow",
+      "pipelineRef" : "opt/illumina/Isas/5.11.0/Strelka/bin/configureStrelkaGermlineWorkflow.py",
+      "runId" : "Platinum",
+      "variantCaller" : "Strelka"
+   },
+   {
+      "aligner" : "Isaac",
+      "analysisDate" : "2017-01-01",
+      "biosampleId" : "NA12878_2",
+      "id" : "analysis_Id5",
+      "individualId" : "NA12878_2",
+      "pipelineName" : "StrelkaGermlineWorkflow",
+      "pipelineRef" : "opt/illumina/Isas/5.11.0/Strelka/bin/configureStrelkaGermlineWorkflow.py",
+      "runId" : "Platinum",
+      "variantCaller" : "Strelka"
+   },
+   {
+      "aligner" : "Isaac",
+      "analysisDate" : "2017-01-01",
+      "biosampleId" : "NA12878_3",
+      "id" : "analysis_Id6",
+      "individualId" : "NA12878_3",
+      "pipelineName" : "StrelkaGermlineWorkflow",
+      "pipelineRef" : "opt/illumina/Isas/5.11.0/Strelka/bin/configureStrelkaGermlineWorkflow.py",
+      "runId" : "Platinum",
+      "variantCaller" : "Strelka"
+   }
+]

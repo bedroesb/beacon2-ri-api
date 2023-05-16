@@ -1,0 +1,110 @@
+[
+   {
+      "biosampleId" : "NA12878_WES_1",
+      "id" : "analysis_Id1",
+      "individualId" : "NA12878_WES_1",
+      "libraryLayout" : "PAIRED",
+      "librarySelection" : "RANDOM",
+      "librarySource" : {
+         "id" : "GENEPIO:0001966",
+         "label" : "genomic Source"
+      },
+      "libraryStrategy" : "Short read Illumina WGS sequencing",
+      "platform" : "Illumina",
+      "platformModel" : {
+         "id" : "OBI:0002630",
+         "label" : "Illumina NovaSeq 6000"
+      },
+      "runDate" : "2021-01-01"
+   },
+   {
+      "biosampleId" : "NA12878_WES_2",
+      "id" : "analysis_Id2",
+      "individualId" : "NA12878_WES_2",
+      "libraryLayout" : "PAIRED",
+      "librarySelection" : "RANDOM",
+      "librarySource" : {
+         "id" : "GENEPIO:0001966",
+         "label" : "genomic Source"
+      },
+      "libraryStrategy" : "Short read Illumina WGS sequencing",
+      "platform" : "Illumina",
+      "platformModel" : {
+         "id" : "OBI:0002630",
+         "label" : "Illumina NovaSeq 6000"
+      },
+      "runDate" : "2021-01-01"
+   },
+   {
+      "biosampleId" : "NA12878_WES_3",
+      "id" : "analysis_Id3",
+      "individualId" : "NA12878_WES_3",
+      "libraryLayout" : "PAIRED",
+      "librarySelection" : "RANDOM",
+      "librarySource" : {
+         "id" : "GENEPIO:0001966",
+         "label" : "genomic Source"
+      },
+      "libraryStrategy" : "Short read Illumina WGS sequencing",
+      "platform" : "Illumina",
+      "platformModel" : {
+         "id" : "OBI:0002630",
+         "label" : "Illumina NovaSeq 6000"
+      },
+      "runDate" : "2021-01-01"
+   },
+   {
+      "biosampleId" : "NA12878_1",
+      "id" : "analysis_Id4",
+      "individualId" : "NA12878_1",
+      "libraryLayout" : "PAIRED",
+      "librarySelection" : "RANDOM",
+      "librarySource" : {
+         "id" : "GENEPIO:0001966",
+         "label" : "genomic Source"
+      },
+      "libraryStrategy" : "Short read Illumina WGS sequencing",
+      "platform" : "Illumina",
+      "platformModel" : {
+         "id" : "OBI:0002049",
+         "label" : "Illumina HiSeq 4000"
+      },
+      "runDate" : "2017-01-01"
+   },
+   {
+      "biosampleId" : "NA12878_2",
+      "id" : "analysis_Id5",
+      "individualId" : "NA12878_2",
+      "libraryLayout" : "PAIRED",
+      "librarySelection" : "RANDOM",
+      "librarySource" : {
+         "id" : "GENEPIO:0001966",
+         "label" : "genomic Source"
+      },
+      "libraryStrategy" : "Short read Illumina WGS sequencing",
+      "platform" : "Illumina",
+      "platformModel" : {
+         "id" : "OBI:0002049",
+         "label" : "Illumina HiSeq 4000"
+      },
+      "runDate" : "2017-01-01"
+   },
+   {
+      "biosampleId" : "NA12878_3",
+      "id" : "analysis_Id6",
+      "individualId" : "NA12878_3",
+      "libraryLayout" : "PAIRED",
+      "librarySelection" : "RANDOM",
+      "librarySource" : {
+         "id" : "GENEPIO:0001966",
+         "label" : "genomic Source"
+      },
+      "libraryStrategy" : "Short read Illumina WGS sequencing",
+      "platform" : "Illumina",
+      "platformModel" : {
+         "id" : "OBI:0002049",
+         "label" : "Illumina HiSeq 4000"
+      },
+      "runDate" : "2017-01-01"
+   }
+]

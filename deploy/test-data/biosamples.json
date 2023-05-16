@@ -1,0 +1,164 @@
+[
+   {
+      "biosampleStatus" : {
+         "id" : "EFO:0009654",
+         "label" : "reference sample"
+      },
+      "id" : "analysis_Id1",
+      "individualId" : "NA12878_WES_1",
+      "info" : {
+         "characteristics" : [
+            {
+               "organism" : [
+                  {
+                     "ontologyTerms" : [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                     ],
+                     "text" : "Homo sapiens"
+                  }
+               ]
+            }
+         ],
+         "taxId" : 9606
+      },
+      "sampleOriginType" : {
+         "id" : "OBI:0001479",
+         "label" : "specimen from organism"
+      }
+   },
+   {
+      "biosampleStatus" : {
+         "id" : "EFO:0009654",
+         "label" : "reference sample"
+      },
+      "id" : "analysis_Id2",
+      "individualId" : "NA12878_WES_2",
+      "info" : {
+         "characteristics" : [
+            {
+               "organism" : [
+                  {
+                     "ontologyTerms" : [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                     ],
+                     "text" : "Homo sapiens"
+                  }
+               ]
+            }
+         ],
+         "taxId" : 9606
+      },
+      "sampleOriginType" : {
+         "id" : "OBI:0001479",
+         "label" : "specimen from organism"
+      }
+   },
+   {
+      "biosampleStatus" : {
+         "id" : "EFO:0009654",
+         "label" : "reference sample"
+      },
+      "id" : "analysis_Id3",
+      "individualId" : "NA12878_WES_3",
+      "info" : {
+         "characteristics" : [
+            {
+               "organism" : [
+                  {
+                     "ontologyTerms" : [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                     ],
+                     "text" : "Homo sapiens"
+                  }
+               ]
+            }
+         ],
+         "taxId" : 9606
+      },
+      "sampleOriginType" : {
+         "id" : "OBI:0001479",
+         "label" : "specimen from organism"
+      }
+   },
+   {
+      "biosampleStatus" : {
+         "id" : "EFO:0009654",
+         "label" : "reference sample"
+      },
+      "id" : "analysis_Id4",
+      "individualId" : "NA12878_1",
+      "info" : {
+         "characteristics" : [
+            {
+               "organism" : [
+                  {
+                     "ontologyTerms" : [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                     ],
+                     "text" : "Homo sapiens"
+                  }
+               ]
+            }
+         ],
+         "taxId" : 9606
+      },
+      "sampleOriginType" : {
+         "id" : "OBI:0001479",
+         "label" : "specimen from organism"
+      }
+   },
+   {
+      "biosampleStatus" : {
+         "id" : "EFO:0009654",
+         "label" : "reference sample"
+      },
+      "id" : "analysis_Id5",
+      "individualId" : "NA12878_2",
+      "info" : {
+         "characteristics" : [
+            {
+               "organism" : [
+                  {
+                     "ontologyTerms" : [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                     ],
+                     "text" : "Homo sapiens"
+                  }
+               ]
+            }
+         ],
+         "taxId" : 9606
+      },
+      "sampleOriginType" : {
+         "id" : "OBI:0001479",
+         "label" : "specimen from organism"
+      }
+   },
+   {
+      "biosampleStatus" : {
+         "id" : "EFO:0009654",
+         "label" : "reference sample"
+      },
+      "id" : "analysis_Id6",
+      "individualId" : "NA12878_3",
+      "info" : {
+         "characteristics" : [
+            {
+               "organism" : [
+                  {
+                     "ontologyTerms" : [
+                        "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+                     ],
+                     "text" : "Homo sapiens"
+                  }
+               ]
+            }
+         ],
+         "taxId" : 9606
+      },
+      "sampleOriginType" : {
+         "id" : "OBI:0001479",
+         "label" : "specimen from organism"
+      }
+   }
+]
